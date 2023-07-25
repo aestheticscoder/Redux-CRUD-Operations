@@ -1,0 +1,68 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+li strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+li p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for Users component */
+/* You can customize these styles as needed */
+.users-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.users-container button {
+  background-color: #28a745;
+}
+
+.users-container button:hover {
+  background-color: #1e7e34;
+}
